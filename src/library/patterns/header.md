@@ -7,7 +7,6 @@ summary:
 ---
 
 ## Design
-### Slim header
 {% include 'patterns/header/header.md' %}
 
 ### Extended header
