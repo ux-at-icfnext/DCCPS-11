@@ -1,4 +1,7 @@
-<div class="usa-accordion">
+<head>
+  <link rel="stylesheet" href="index.scss">
+</head>
+<div class="usa-accordion accordion">
   <h4 class="usa-accordion__heading">
     <button
       type="button"

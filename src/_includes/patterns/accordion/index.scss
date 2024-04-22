@@ -1,0 +1,41 @@
+/* .usa-accordion {} 
+   .usa-accordion__heading {}
+   .usa-accordion__button {}
+   .usa-accordion__content {}
+*/
+
+.accordion{
+    .usa-accordion__button {
+      margin-block: .5rem;
+      background-color: #2f70a8;
+      color: white;
+      &[aria-expanded='false']{
+        background-image: url(/assets/img/usa-icons/chevron-down_white.svg),linear-gradient(transparent,transparent);
+      }
+      &[aria-expanded='true']{
+        background-image: url(/assets/img/usa-icons/chevron-up_white.svg),linear-gradient(transparent,transparent);
+      }
+    }
+    .usa-accordion__button:hover{
+      background-color: #183A57;
+      color: white;
+    }
+  }
+  
+  .accordion_title{
+    display: flex;
+    align-items: center;
+    span{
+      padding-left: 2rem;
+    }
+    p{
+      font-weight: 400;
+    }
+    h3{
+      margin-bottom: 0;
+    }
+  }
+  .accordion_icon{
+    background-size: 100px 900px;
+  }
+  /* USA uses h4 in order to create this margin -- however, using h4 messes with the right rail nav... also this is dumb. */
