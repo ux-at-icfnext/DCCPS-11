@@ -6,4 +6,4 @@ summary:
 ---
 
 ## Design
-{% include 'patterns/alert/alert.md' %}
+{% include 'patterns/alert/alert-default.md' %}

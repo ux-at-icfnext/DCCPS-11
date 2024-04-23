@@ -6,4 +6,4 @@ summary:
 ---
 
 ## Design
-{% include 'patterns/banner/banner.md' %}
+{% include 'patterns/banner/banner-default.md' %}

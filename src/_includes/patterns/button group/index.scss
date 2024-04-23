@@ -1,0 +1,13 @@
+.usa-button--secondary{
+    background-color: white;
+    border: 1px solid #2f70a8;
+}
+.usa-button--secondary:visited{
+    color: #2f70a8;
+    border: 1px solid #2f70a8;
+}
+.usa-button--secondary.usa-button--hover, .usa-button--secondary.usa-button--active, .usa-button--secondary:hover{
+    background-color: #183A57;
+    color: white;
+    border: none;
+}

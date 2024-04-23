@@ -1,0 +1,27 @@
+/*
+  .usa-alert{}
+  .usa-alert__body{}
+  .usa-alert__heading{}
+  .usa-alert__text{}
+  .usa-alert--slim{}
+  .usa-alert--no-icon{}
+*/
+.usa-alert--secondary{
+    background-color: #f2f2f2;
+    border-color: #808080;
+    .usa-alert__body{
+      padding-left: 3.8333333333rem;
+    }
+  }
+  .usa-alert--secondary::before{
+    background: url(../img/usa-icons/info.svg) no-repeat 50%/contain;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    content: "";
+    display: block;
+    height: 3.5rem;
+    left: 0.9166666667rem;
+    position: absolute;
+    top: 0;
+  }

@@ -6,4 +6,4 @@ summary:
 ---
 
 ## Design
-{% include 'patterns/accordion/accordion.md' %}
+{% include 'patterns/accordion/accordion-default.md' %}
